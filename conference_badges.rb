@@ -8,5 +8,6 @@ def batch_badge_creator(attendees)
     attendees.push(badges)
     printf "Hello, my name is #{badges}."
  end 
+ attendees
 end
 
