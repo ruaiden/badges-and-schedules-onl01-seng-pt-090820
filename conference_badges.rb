@@ -11,6 +11,5 @@ def assign_rooms(speakers)
   speakers.each_with_index do |name, i| 
   new_array << printf "Hello, #{name}! You'll be assigned to room #{i+1}!"
 end
-end
   new_array
 end
