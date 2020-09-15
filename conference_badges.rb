@@ -3,7 +3,7 @@
 #end
 
 def batch_badge_creator(attendees)
-  attendees=[]
+  new_attendees=[]
   attendees.each do |badges| 
     attendees.push(badges)
     printf "Hello, my name is #{badges}."
