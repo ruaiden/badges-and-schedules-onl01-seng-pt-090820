@@ -7,5 +7,5 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(room)
-  room.map {|room| printf "Hello #{name}! You'll be assigned to room #{room}!"
+  room.map {|room| printf "Hello #{name}! You'll be assigned to room #{room}!"}
 end
