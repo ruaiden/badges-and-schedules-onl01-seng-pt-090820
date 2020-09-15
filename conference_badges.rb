@@ -8,6 +8,6 @@ end
 
 def assign_rooms(speakers)
   new_array = []
-  speakers.each_with_index {|name, i|
+  speakers.each_with_index{|name, i| new_Array
   "Hello #{speakers}! You'll be assigned to room #{i}!"}
 end
